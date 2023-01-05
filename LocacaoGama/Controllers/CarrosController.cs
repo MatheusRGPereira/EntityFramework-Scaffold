@@ -48,6 +48,8 @@ namespace LocacaoGama.Controllers
         // GET: Carros/Create
         public IActionResult Create()
         {
+            ViewBag.marcas = _context.Marcas.ToList();
+            ViewBag.modelos = _context.Modelos.ToList();
             return View();
         }
 

@@ -11,7 +11,8 @@ namespace LocacaoGama.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
+
         [Column("nome", TypeName = "varchar(100)")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
     }
 }
