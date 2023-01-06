@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace LocacaoGama.Models
 {
@@ -22,7 +23,6 @@ namespace LocacaoGama.Models
 
         [Column("endereco", TypeName = "varchar(100)")]
         public string Endereco { get; set; }
-
 
     }
 }

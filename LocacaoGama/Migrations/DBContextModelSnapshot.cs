@@ -25,22 +25,22 @@ namespace LocacaoGama.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Marca")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)")
-                        .HasColumnName("marca");
+                    b.Property<int>("MarcaId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Modelo")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)")
-                        .HasColumnName("modelo");
+                    b.Property<int>("ModeloId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("varchar(100)")
+                        .HasColumnType("varchar(50)")
                         .HasColumnName("nome");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MarcaId");
+
+                    b.HasIndex("ModeloId");
 
                     b.ToTable("tb_carros");
                 });
@@ -82,9 +82,8 @@ namespace LocacaoGama.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("diasDeLocacao")
-                        .HasColumnType("DateTime")
-                        .HasColumnName("dias_de_locacao");
+                    b.Property<int>("diasDeLocacao")
+                        .HasColumnType("int");
 
                     b.HasKey("id");
 
@@ -98,7 +97,6 @@ namespace LocacaoGama.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
                         .HasColumnType("varchar(100)")
                         .HasColumnName("nome");
 
@@ -113,12 +111,17 @@ namespace LocacaoGama.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int>("MarcaId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("varchar(100)")
                         .HasColumnName("nome");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MarcaId");
 
                     b.ToTable("tb_modelos");
                 });
@@ -129,27 +132,74 @@ namespace LocacaoGama.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Carro")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)")
-                        .HasColumnName("carro");
+                    b.Property<int>("CarroId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DataEntrega")
-                        .HasColumnType("DateTime")
-                        .HasColumnName("data_entrega");
+                        .HasColumnType("datetime(6)");
 
                     b.Property<DateTime>("DataLocacao")
-                        .HasColumnType("DateTime")
-                        .HasColumnName("data_locacao");
-
-                    b.Property<string>("IdCliente")
-                        .IsRequired()
-                        .HasColumnType("varchar(100)")
-                        .HasColumnName("id_cliente");
+                        .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CarroId");
+
+                    b.HasIndex("ClienteId");
+
                     b.ToTable("tb_pedidos");
+                });
+
+            modelBuilder.Entity("LocacaoGama.Models.Carro", b =>
+                {
+                    b.HasOne("LocacaoGama.Models.Marca", "Marca")
+                        .WithMany()
+                        .HasForeignKey("MarcaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LocacaoGama.Models.Modelo", "Modelo")
+                        .WithMany()
+                        .HasForeignKey("ModeloId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Marca");
+
+                    b.Navigation("Modelo");
+                });
+
+            modelBuilder.Entity("LocacaoGama.Models.Modelo", b =>
+                {
+                    b.HasOne("LocacaoGama.Models.Marca", "Marca")
+                        .WithMany()
+                        .HasForeignKey("MarcaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Marca");
+                });
+
+            modelBuilder.Entity("LocacaoGama.Models.Pedido", b =>
+                {
+                    b.HasOne("LocacaoGama.Models.Carro", "Carro")
+                        .WithMany()
+                        .HasForeignKey("CarroId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LocacaoGama.Models.Cliente", "Cliente")
+                        .WithMany()
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Carro");
+
+                    b.Navigation("Cliente");
                 });
 #pragma warning restore 612, 618
         }

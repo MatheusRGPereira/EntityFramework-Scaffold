@@ -16,64 +16,64 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\I\source\repos\LocacaoGama\LocacaoGama
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carros/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXENyZWF0ZS5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carro/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carros/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXERlbGV0ZS5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carro/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carros/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXERldGFpbHMuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carro/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carros/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEVkaXQuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carro/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carros/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEluZGV4LmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Carro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Clientes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Clientes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Cliente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Clientes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Cliente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Clientes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Clientes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY29lc1xDcmVhdGUuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2FvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY29lc1xEZWxldGUuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2FvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY29lc1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2FvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY29lc1xFZGl0LmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2FvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY29lc1xJbmRleC5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Configuracao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhY2FvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Home/Index.cshtml]
@@ -84,64 +84,64 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marcas/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXENyZWF0ZS5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marca/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marcas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXERlbGV0ZS5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marca/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marcas/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXERldGFpbHMuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marca/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marcas/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXEVkaXQuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marca/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marcas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FzXEluZGV4LmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Marca/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc1xDcmVhdGUuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc1xEZWxldGUuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc1xFZGl0LmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc1xJbmRleC5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Modelo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedidos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xDcmVhdGUuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedido/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedidos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xEZWxldGUuY3NodG1s
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedido/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedidos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedido/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedidos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xFZGl0LmNzaHRtbA==
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedido/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedidos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xJbmRleC5jc2h0bWw=
+[C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Pedido/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/I/source/repos/LocacaoGama/LocacaoGama/Views/Shared/Error.cshtml]

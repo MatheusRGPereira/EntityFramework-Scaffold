@@ -3,25 +3,23 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LocacaoGama.Models
 {
-
     [Table("tb_pedidos")]
     public class Pedido
     {
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int Id { get; set; } = default!;
 
-        [Column("id_cliente", TypeName = "varchar(100)")]
-        public string IdCliente { get; set; }
+        public int ClienteId { get; set; } = default!;
+        public Cliente? Cliente { get; set; }
 
-        [Column("carro", TypeName = "varchar(100)")]
-        public string Carro { get; set; }
+        public int CarroId { get; set; } = default!;
+        public Carro? Carro { get; set; }
 
-        [Column("data_locacao", TypeName = "DateTime")]
-        public DateTime DataLocacao { get; set; }
 
-        [Column("data_entrega", TypeName = "DateTime")]
-        public DateTime DataEntrega{ get; set; }
 
+        public DateTime DataLocacao { get; set; } = default!;
+        public DateTime DataEntrega { get; set; } = default!;
     }
 }

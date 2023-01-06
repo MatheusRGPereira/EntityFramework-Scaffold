@@ -1,9 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 
 namespace LocacaoGama.Models
 {
+
     [Table("tb_marcas")]
     public class Marca
     {
@@ -14,5 +14,6 @@ namespace LocacaoGama.Models
 
         [Column("nome", TypeName = "varchar(100)")]
         public string? Nome { get; set; }
+
     }
 }

@@ -1,18 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace LocacaoGama.Models
 {
-
     [Table("tb_configuracoes")]
     public class Configuracao
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int id { get; set; }
+        public int id { get; set; } = default!;
 
-        [Column("dias_de_locacao", TypeName = "DateTime")]
-        public DateTime diasDeLocacao { get; set; }
-
+        public int diasDeLocacao { get; set; } = default!;
     }
 }

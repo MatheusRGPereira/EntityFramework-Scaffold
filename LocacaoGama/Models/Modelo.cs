@@ -9,9 +9,13 @@ namespace LocacaoGama.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int Id { get; set; } = default!;
 
         [Column("nome", TypeName = "varchar(100)")]
-        public string Nome { get; set; }
+        public string Nome { get; set; } = default!;
+
+        public int MarcaId { get; set; } = default!;
+        public Marca? Marca { get; set; }
+
     }
 }
